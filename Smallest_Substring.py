@@ -8,8 +8,8 @@ def numberOfDistinct(string) :
 
 #Function to find length of smallest substring with maximum distinct characters
 def small_sub( sub_str , present_num) :
-    if present_num == 1 :
-        return 1
+    if present_num == 2 :
+        return 2
     if len(sub_str) <=1 :
         return len(sub_str)
     
